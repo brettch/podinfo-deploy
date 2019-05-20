@@ -10,6 +10,7 @@ metadata:
 spec:
   rules:
   - http:
+      host: training-user-16.training.weave.works
       paths:
       - backend:
           serviceName: metrics
