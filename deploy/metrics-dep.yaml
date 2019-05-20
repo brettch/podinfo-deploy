@@ -5,7 +5,7 @@ metadata:
   name: metrics
   namespace: dev
   annotations:
-    flux.weave.works/tag.metrics: glob:*
+    flux.weave.works/tag.metrics: glob:v4-subscription-service
     flux.weave.works/automated: 'true'
 spec:
   replicas: 4
